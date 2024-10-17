@@ -1,0 +1,34 @@
+.forgot_inner{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 30px;
+}
+.forgot_inner_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 70px;
+}
+.forgot_inner_text h2{
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+.forgot_inner_text div{
+    font-size: 20px;
+}
+
+.forgot_inner_btns{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.forgot_inner_message{
+    width: 40%;
+    margin: 0 auto;
+    background-color: #BEE5B3;
+    padding: 20px;
+    border-radius: 5px;
+}
