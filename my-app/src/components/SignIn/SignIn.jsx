@@ -1,7 +1,7 @@
 import React from 'react'
-import MyInput from '../UI/MyInput/MyInput'
-import MyButton from '../UI/MyButton/MyButton'
 import "./SignIn.css";
+import MyInput from '../../UI/MyInput/MyInput';
+import MyButton from '../../UI/MyButton/MyButton';
 const SignIn = ({isActive}) => {
   return (
     <div className={`block sign_in ${isActive?"sign_in_active":""}`}>

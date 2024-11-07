@@ -1,7 +1,7 @@
 import React from 'react'
-import MyInput from '../UI/MyInput/MyInput'
-import MyButton from '../UI/MyButton/MyButton'
 import "./SignUp.css";
+import MyInput from '../../UI/MyInput/MyInput';
+import MyButton from '../../UI/MyButton/MyButton';
 const SignUp = ({isActive, notFirstClick}) => {
   return (
     <div className={`block sign_up ${isActive?'sign_up_active': notFirstClick?'sign_up_not':""}`}>

@@ -1,0 +1,25 @@
+.profile_img{
+    width: 80px;
+}
+.profile_view{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px 0;
+}
+.profile_view_data{
+    margin-left: 40px;
+    display: flex;
+    gap: 20px;
+}
+.profile_view_ttitle{
+    font-size: 17px;
+    font-weight: 500;
+}
+.profile_view_ttext{
+    font-size: 17px;
+}
+.profile_view_stext{
+    font-size: 15px;
+    color: #434141;
+}

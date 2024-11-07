@@ -1,0 +1,30 @@
+.account_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.account_info_text{
+    font-size: 17px;
+    font-weight: 500;
+}
+.account_info_inner{
+    margin: 40px 0;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.account_info_el{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.account_el_text{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3; 
+    max-height: 4.5em; 
+    line-height: 1.5em;
+}

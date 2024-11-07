@@ -1,0 +1,34 @@
+.sideBar{
+    width: 7%;
+    height: 100vh;
+    position: fixed;
+    transition: all .3s;
+}
+.sideBar_default_bac{
+    background-color: #2257bf;
+}
+.logo{
+    padding: 20px 0;
+    height: 66px;
+}
+.nav_li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    transition: all .3s;
+    cursor: pointer;
+}
+.nav_li img{
+    width: 30px;
+}
+.sideBar_default_bac .nav_li:hover{
+    background-color: #1c4aa5;
+}
+.sideBar_black_bac{
+    background-color: #000;
+}
+.sideBar_black_bac .nav_li:hover{
+    background-color: #262626;
+}

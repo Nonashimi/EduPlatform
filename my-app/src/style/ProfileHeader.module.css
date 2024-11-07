@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    transition: all .3s;
+}
+.header_default_bac{
+    background-color: #2257bf;
+}
+.header_element{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.function{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+}
+.function_li img{
+    width: 30px;
+    cursor: pointer;
+}
+.logo, .notification{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+.notification img{
+    width: 30px;
+}
+
+/* black fon */
+
+.header_black_bac{
+    background-color: #000;
+}

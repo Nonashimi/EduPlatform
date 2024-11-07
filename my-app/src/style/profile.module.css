@@ -1,0 +1,23 @@
+
+.profile_section{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.profile_container{
+    width: 100%;
+    transition: all .3s;
+}
+.profile_default_bac{
+    background-color: #fff;
+    color: black;
+}
+.profile_black_bac{
+    background-color: #1a1818;
+    color: #fff;
+}
+.profile_title{
+    font-size: 30px;
+    font-weight: 700;
+    background-color: aquamarine;
+}
