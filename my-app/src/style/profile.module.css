@@ -5,6 +5,7 @@
     padding: 70px 0;
 }
 .profile_container{
+    padding: 100px 0;
     width: 100%;
     transition: all .3s;
 }
@@ -13,11 +14,10 @@
     color: black;
 }
 .profile_black_bac{
-    background-color: #1a1818;
+    background-color: #211f1f;
     color: #fff;
 }
 .profile_title{
     font-size: 30px;
     font-weight: 700;
-    background-color: aquamarine;
 }

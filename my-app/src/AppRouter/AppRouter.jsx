@@ -10,7 +10,8 @@ const AppRouter = () => {
         {path:"/", element:<Autentification/>},
         {path:"/forgotPassword", element:<ForgotPassword/>},
         {path:"/newPassword", element:<NewPassword/>},
-        {path:"/profile", element:<ProfilePage/>}
+        {path:"/profile", element:<ProfilePage/>},
+        {path:"/courses", element:<div>Hello</div>}
     ];
   return (
     <BrowserRouter>
