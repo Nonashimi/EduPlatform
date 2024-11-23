@@ -3,6 +3,7 @@
     height: 100%;
     flex-direction: column;
     gap: 30px;
+    text-align: center
 }
 .forgot_inner_text{
     display: flex;

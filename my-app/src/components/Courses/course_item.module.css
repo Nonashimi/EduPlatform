@@ -1,0 +1,35 @@
+.product_info{
+    display: flex;
+    position: relative;
+}
+.product_company{
+    position: absolute;
+    bottom: -3px;
+}
+
+.product_price{
+    margin-left: 67px;
+    padding: 7px 15px;
+    background-color: #0292D3;
+    color: #fff;
+}
+.product_img{
+    width: 100%;
+}
+
+.course_item_text{
+    padding: 20px 0;
+    width: 200px;
+}
+.course_item_text_name{
+    color: #10203F;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+.course_item_text_author{
+    margin-top: 4px;
+    color: #4D4D4D;
+}
+

@@ -15,10 +15,11 @@ const ProfileHeader = () => {
   return (
     <header className={`${classes.header} ${!isNight?classes.header_default_bac:classes.header_black_bac}`}>
             <div className={classes.logo}>
-                <img src="https://www.figma.com/design/HY3AkeQZHacgYdYpMryJ4c/LeRn-Academy-Educational-Platform?node-id=7-322&t=ty6j5mt62F9NCzRt-4" alt="" />
             </div>
             <div className={classes.header_element}>
-              <MySearch placeholder = "Search..."/>
+              <div className={classes.header_search_el}>
+                <MySearch placeholder = "Search..."/>
+              </div>
               <ul className={classes.function}>
                 <li className={classes.function_li} onClick={() => dispatch(clickSun())}>
                   <img src={isNight?sun:sun_active} alt="" />
